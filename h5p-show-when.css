@@ -1,0 +1,18 @@
+.h5p-editor-widget-show-when.hidden { display: none; }
+
+/* H5P core injects "Collapse all content" / list-title collapse buttons for any
+   list whose items are groups. Their adaptive width/placement misrenders in some
+   editors (e.g. Lumi: first overflowing right, then jammed left at minimal width).
+   This list is short, its items are collapsed by default and remain individually
+   collapsible, so we suppress these convenience buttons and keep the list's normal
+   label. Scoped to this widget only, so other lists in the editor are unaffected. */
+.h5p-editor-widget-show-when .h5p-editor-flex-wrapper.has-button-collapse,
+.h5p-editor-widget-show-when .h5peditor-label-button {
+  display: none !important;
+}
+.h5p-editor-widget-show-when .h5peditor-label.offsite {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  opacity: 1 !important;
+}

@@ -1,0 +1,20 @@
+{
+  "machineName": "H5PEditor.PlaceWordsShowWhen",
+  "title": "Place Words conditional editor fields",
+  "license": "MIT",
+  "author": "UrmasV",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 5,
+  "runnable": 0,
+  "preloadedJs": [
+    {
+      "path": "h5p-show-when.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "h5p-show-when.css"
+    }
+  ]
+}
